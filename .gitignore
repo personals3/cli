@@ -1,0 +1,17 @@
+# Built binaries
+ps3
+ps3.exe
+/bin/
+/dist/
+
+# Local config / credentials
+.env
+.env.*
+*.local
+config.yaml
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
