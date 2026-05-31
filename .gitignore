@@ -1,6 +1,7 @@
-# Built binaries
-ps3
-ps3.exe
+# Built binaries — leading slash anchors to repo root so this only matches
+# the locally-built `ps3` binary, NOT the cmd/ps3/ source directory.
+/ps3
+/ps3.exe
 /bin/
 /dist/
 
