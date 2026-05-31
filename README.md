@@ -72,8 +72,8 @@ Run `ps3 <command> --help` for the full flag list on any subcommand.
 
 Credentials and the configured server URL are stored at:
 
-- Linux / macOS: `~/.config/ps3/config.yaml`
-- Windows: `%APPDATA%\ps3\config.yaml`
+- Linux / macOS: `~/.ps3/config.json`
+- Windows: `%USERPROFILE%\.ps3\config.json`
 
 You can override the server per-invocation with `--server`, or set
 `PS3_SERVER` in your environment.
